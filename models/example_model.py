@@ -1,8 +1,8 @@
 # Author: Adam Corbier (@Ad2Am2)
 
 # Imports
-import materials    # Allows for use of default values for given materials
-from nub_ctm import make_unit_dict  # Prepackaged function to create functional blocks in the system
+from src import materials    # Allows for use of default values for given materials
+from src.nub_ctm import make_unit_dict  # Prepackaged function to create functional blocks in the system
 
 
 ##### FIRST LAYER #####

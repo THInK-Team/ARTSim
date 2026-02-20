@@ -8,18 +8,10 @@ import scipy.linalg
 import scipy.sparse.linalg
 import time
 
-
-import globalVar
-
-
-
-
+from src import globalVar
 from cmath import isclose
 
 r_conv = 1
-
-
-
 
 """Creates the dictionary of the unit that contains all the modeling and material properties of that unit"""
 def make_unit_dict(volumetricHeatCapacity, conductivity, thickness, resolution, leftX, bottomY, width, height, powerDissipation):

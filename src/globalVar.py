@@ -7,3 +7,4 @@ IVectorVector = []
 nodes = []
 model = []
 modelPrepared = False
+baseTemp = 318.5
